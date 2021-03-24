@@ -1,0 +1,6 @@
+<!--components/empty/empty.wxml-->
+<view class="centerBox empty" wx:if="{{isEmpty}}">
+	<image class="image" src="../../icon/empty_icon.png"></image>
+	<view class="text">--{{emptyMsg}}--</view>
+</view>
+<view class="noMore" wx:if="{{noMore&&!isEmpty}}">--{{noMoreMsg}}--</view>

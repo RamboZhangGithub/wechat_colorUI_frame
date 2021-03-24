@@ -1,0 +1,83 @@
+/* components/login_mask/login_mask.wxss */
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #303135;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maskBox {
+  width: 540rpx;
+  height: 810rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.maskTop {
+  background: #fff;
+  opacity: 1;
+  width: 100%;
+  height: 700rpx;
+  box-sizing: border-box;
+  padding: 120rpx 50rpx 90rpx;
+  border-radius: 20rpx;
+}
+
+.topName {
+  width: 100%;
+  height: 200rpx;
+  color: #4278FF;
+  font-size: 32rpx;
+  font-weight: bold;
+  white-space: pre-wrap;
+  line-height: 50rpx;
+}
+
+.topExplain {
+  width: 100%;
+  height: 64rpx;
+  color: #888888;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  white-space: pre-wrap;
+  margin: 40rpx 0 70rpx;
+}
+
+.logs {
+  width: 440rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  font-weight: bold;
+  border: none;
+  border-radius: 60rpx;
+  background-color: #4278FF;
+}
+
+.maskBottom {
+  width: 100%;
+  height: 110rpx;
+  box-sizing: border-box;
+  padding: 50rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60rpx !important;
+  color: #FFFFFF;
+}
+.maskBottom .img{
+    width: 60rpx;
+    height: 60rpx;
+}

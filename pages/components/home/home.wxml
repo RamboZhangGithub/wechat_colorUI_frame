@@ -1,0 +1,26 @@
+<scroll-view scroll-y="{{modalName==null}}" class="page {{modalName!=null?'show':''}}">
+	<cu-custom bgColor="bg-gradual-pink" isBack="{{false}}">
+		<view slot="content">组件列表</view>
+	</cu-custom>
+	<view class="solid-bottom text-xl padding">
+		<text class="text-black text-bold">业务组件</text>
+	</view>
+	<view class='nav-list'>
+		<navigator hover-class='none' url="/pages/components/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{businessComponents}}" wx:key>
+			<view class="nav-title">{{item.title}}</view>
+			<view class="nav-name">{{item.name}}</view>
+			<text class='cuIcon-{{item.icon}}'></text>
+		</navigator>
+	</view>
+	<view class="solid-bottom text-xl padding">
+		<text class="text-black text-bold">通用组件</text>
+	</view>
+	<view class='nav-list'>
+		<navigator hover-class='none' url="/pages/components/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{commonComopents}}" wx:key>
+			<view class="nav-title">{{item.title}}</view>
+			<view class="nav-name">{{item.name}}</view>
+			<text class='cuIcon-{{item.icon}}'></text>
+		</navigator>
+	</view>
+	<view class="cu-tabbar-height"></view>
+</scroll-view>

@@ -1,0 +1,12 @@
+var replaceStar = function (e) {
+  var a
+  switch (1*e) {
+      case 1:
+          a = '一年级'
+          break;
+  }
+  return a;
+}
+module.exports = {
+  replaceStar: replaceStar
+}

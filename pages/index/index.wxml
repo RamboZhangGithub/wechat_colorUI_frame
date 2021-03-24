@@ -1,0 +1,16 @@
+<frame wx:if="{{PageCur=='basics'}}"></frame>
+<component wx:if="{{PageCur=='component'}}"></component>
+<view class="cu-bar tabbar bg-white shadow foot">
+	<view class="action" bindtap="NavChange" data-cur="basics">
+		<view class='cuIcon-cu-image'>
+			<image src="/images/tabbar/basics{{PageCur=='basics'?'_cur':''}}.png"></image>
+		</view>
+		<view class="{{PageCur=='basics'?'text-green':'text-gray'}}">框架使用</view>
+	</view>
+	<view class="action" bindtap="NavChange" data-cur="component">
+		<view class='cuIcon-cu-image'>
+			<image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
+		</view>
+		<view class="{{PageCur=='component'?'text-green':'text-gray'}}">组件</view>
+	</view>
+</view>

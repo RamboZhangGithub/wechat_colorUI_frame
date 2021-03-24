@@ -1,0 +1,5 @@
+<view class="navBarMap" style="padding-top:{{layoutHeight.statusBarHeight}}rpx;">
+	<image wx:if="{{!isBack}}" class="icon" src="../../icon/back_icon.png" catchtap="back"></image>
+	<image class="icon home" src="../../icon/home1.png" catchtap="goHome"></image>
+</view>
+<view class="occupy" style="height:{{layoutHeight.statusBarHeight+80}}rpx"></view>

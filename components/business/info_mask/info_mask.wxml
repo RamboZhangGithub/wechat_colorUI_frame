@@ -1,0 +1,21 @@
+	<!--  catchtouchstart="stopScroll" -->
+	<view wx:if="{{showLogin}}" class="mask">
+		<view class="maskBox">
+			<view class="maskTop">
+				<view class="topName">
+					<view>登录/注册后，</view>
+					<view>可查看全部升学政策</view>
+					<!-- <view>下载升学政策PDF资料</view> -->
+					<view>专家一对一咨询</view>
+				</view>
+				<view class="topExplain">
+					<view>为了能给您推荐更精细化的内容，</view>
+					<view>请您注册时填写的用户信息一定要准确</view>
+				</view>
+				<button class="logs" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">登录/注册</button>
+			</view>
+			<view wx:if="{{canClose}}" class="maskBottom">
+				<text class="cuIcon-close lg text-gray" catchtap="hideLoginMap"></text>
+			</view>
+		</view>
+	</view>

@@ -1,0 +1,95 @@
+<scroll-view scroll-y class="scrollPage">
+	<cu-custom bgColor="bg-gradual-pink" isBack="{{false}}">
+		<view slot="content">框架使用</view>
+	</cu-custom>
+	<view class="cu-card">
+		<view class="cu-item bg-img shadow-blur bg-gradual-orange">
+			<view class="cardTitle">
+				组件库体检
+				<image class="radius shadow-warp bg-red uiCode" src="../../../images/imgs/colorUICode.jpeg"></image>
+			</view>
+		</view>
+	</view>
+
+	<view class="cu-bar bg-white solid-bottom margin-top">
+		<view class="action">
+			<text class="cuIcon-title text-orange "></text> 文件列表说明
+		</view>
+	</view>
+	<view class="cu-list menu sm-border card-menu margin-top">
+		<view class="cu-item">
+			<view class="content padding-tb-sm">
+				<view>
+					<text class="cuIcon-discoverfill margin-right-xs"></text>网络：api</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> api => 接口</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> base64 => 加密</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> connector => 网络请求封装</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> env => 环境配置</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> oss => 云上传封装</view>
+			</view>
+		</view>
+		<view class="cu-item">
+			<view class="content padding-tb-sm">
+				<view>
+					<text class="cuIcon-circlefill text-blue margin-right-xs"></text>组件：components</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> common => 通用组件</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> business => 业务组件</view>
+			</view>
+		</view>
+		<view class="cu-item">
+			<view class="content padding-tb-sm">
+				<view>
+					<text class="cuIcon-emojiflashfill text-pink margin-right-xs"></text>图片：images</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> icon => 图标</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> imgs => 大图</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> tabbar => 导航图</view>
+			</view>
+		</view>
+		<view class="cu-item">
+			<view class="content padding-tb-sm">
+				<view>
+					<text class="cuIcon-btn text-green margin-right-xs"></text>页面：pages </view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> index => 入口页</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> 导航页以组件形式嵌入index页</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> 内页自定义</view>
+			</view>
+		</view>
+		<view class="cu-item">
+			<view class="content padding-tb-sm">
+				<view>
+					<text class="cuIcon-tagfill text-red margin-right-xs"></text>插件：plugin </view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> cryptojs => crypto加解密</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> parser => 富文本</view>
+			</view>
+		</view>
+		<view class="cu-item">
+			<view class="content padding-tb-sm">
+				<view>
+					<text class="cuIcon-clothesfill text-blue margin-right-xs"></text>工具：utils</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> event => 时间总线,类似于vue-bus</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> qqmap-wx-jssdk.min => 腾讯定位sdk</view>
+				<view class="text-gray text-sm">
+					<text class="cuIcon-infofill margin-right-xs"></text> util => 通用函数</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="cu-tabbar-height"></view>
+</scroll-view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "infoMask":"../../../components/business/info_mask/info_mask"
+  }
+}

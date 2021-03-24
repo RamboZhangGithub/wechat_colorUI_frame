@@ -1,0 +1,6 @@
+<scroll-view scroll-y class="scrollPage">
+	<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+		<view slot="content">完善信息遮罩</view>
+	</cu-custom>
+	<infoMask showLogin="{{showLogin}}" bind:hideLoginMap="hideLoginMap" bind:getPhoneNumber="getPhoneNumber"></infoMask>
+</scroll-view>

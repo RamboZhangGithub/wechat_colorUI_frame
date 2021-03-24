@@ -1,0 +1,25 @@
+/* components/empty/empty.wxss */
+.empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.empty .text {
+  color: #999;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.empty .image {
+  height: 200rpx;
+  width: 200rpx;
+  margin-bottom: 20rpx;
+}
+
+.noMore {
+  text-align: center; 
+  color: #999;
+  height: 80rpx;
+  line-height: 80rpx;
+}

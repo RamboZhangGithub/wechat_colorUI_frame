@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "frame": "/pages/frame/home/home",
+    "component": "/pages/components/home/home"
+  }
+}
